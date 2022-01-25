@@ -1,0 +1,176 @@
+.container {
+  background-color: #d2e5d0;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #116530;
+}
+
+.subscription > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.subscriptionHeading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.subscriptionText {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.footerInput {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 2px solid #ff3d00;
+}
+.inputAreas {
+  display: inline-block;
+}
+.button {
+  height: 40px;
+  width: 80px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: white;
+  color: #ff3d00;
+  border: 2px solid #ff3d00;
+  cursor: pointer;
+  font-size: 18px;
+}
+.footerLinks {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerLinkWrapper {
+  display: flex;
+}
+
+.footerLinkItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.footerLinkItems h2 {
+  margin-bottom: 16px;
+}
+
+.footerLinkItems > h2 {
+  color: #116530;
+}
+
+.footerLinkItems a {
+  color: #116530;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footerLinkItems a:hover {
+  color: #ff3d00;
+  transition: 0.3s ease-out;
+}
+
+.footerEmailForm h2 {
+  margin-bottom: 2rem;
+}
+
+.footerInput::placeholder {
+  color: #ff3d00;
+}
+
+/* Social Icons */
+.socialIconLink {
+  color: #116530;
+  font-size: 24px;
+}
+
+.socialMedia {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.socialMediaWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.socialLogo {
+  color: #116530;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.websiteRights {
+  color: #116530;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .footerLinks {
+    padding-top: 2rem;
+  }
+
+  .footerInput {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .footerLinkWrapper {
+    flex-direction: column;
+  }
+
+  .socialMediaWrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
